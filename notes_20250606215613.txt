@@ -1,0 +1,105 @@
+06.06 9:55 pm
+Web code html
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahsas Program Coin - رفاہی کرپٹو کرنسی</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 150px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">Ahsas Coin</div>
+    
+    <nav>
+        <a href="index.html">ہوم</a>
+        <a href="whitepaper.html">وائٹ پیپر</a>
+        <a href="roadmap.html">روڈ میپ</a>
+        <a href="#features">خصوصیات</a>
+        <a href="#contact">رابطہ</a>
+    </nav>
+    
+    <div class="container">
+        <div class="hero">
+            <h1>Ahsas Program Coin میں خوش آمدید</h1>
+            <p>رفاہی مقاصد کے لیے بنائی گئی پہلی پاکستانی بلاک چین پر مبنی کرنسی</p>
+            <button onclick="location.href='whitepaper.html'" class="cta-button">وائٹ پیپر ڈاؤن لوڈ کریں</button>
+        </div>
+        
+        <section id="features">
+            <h2>ہماری خصوصیات</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>شفافیت</h3>
+                    <p>بلاک چین ٹیکنالوجی کی مدد سے مکمل شفاف لین دین</p>
+                </div>
+                <div class="feature">
+                    <h3>رفاہی</h3>
+                    <p>غریب اور ضرورت مند افراد کی مدد کے لیے مخصوص</p>
+                </div>
+                <div class="feature">
+                    <h3>محفوظ</h3>
+                    <p>جدید ترین کرپٹوگرافی سے محفوظ</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2023 Ahsas Program Coin. تمام حقوق محفوظ ہیں۔</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+06.06 9:59 pm
+Web code js
+// سادہ جاوا اسکرپٹ کوڈ برائے تعامل
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Ahsas Program Coin ویب سائٹ لوڈ ہو گئی ہے');
+    
+    // سموتھ سکرولنگ کے لیے
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    
+    // وائٹ پیپر ڈاؤن لوڈ بٹن کے لیے
+    const downloadBtn = document.querySelector('.cta-button');
+    if(downloadBtn) {
+        downloadBtn.addEventListener('click', function() {
+            alert('وائٹ پیپر ڈاؤن لوڈ ہو رہا ہے...');
+            // یہاں آپ ایکچوئل ڈاؤن لوڈ فنکشنلٹی شامل کر سکتے ہیں
+        });
+    }
+});
